@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="quire.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <a href="#">
+          <h3>S Flix</h3>
+        </a>
+        <nav class="nav-menu-container">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="movie.html">Movie</a></li>
+            <li><a href="#shows">Tv Shows</a></li>
+            <li><a href="#topmovie">Top Movie</a></li>
+          </ul>
+        </nav>
+        <ul class="icon">
+          <li><i class="bx bxs-cog" id="setting-icon"></i></li>
+          <li><i class="bx bxs-sun" id="light-dark"></i></li>
+          <li><i class="bx bx-menu" id="menu-bar"></i></li>
+        </ul>
+      </header>
+      <div class="image-box">
+        <img src="images/movie1.jpg" alt="" />
+        <img src="images/movie2.jpg" alt="" />
+        <img src="images/movie3.jpg" alt="" />
+        <img src="images/movie4.jpg" alt="" />
+        <img src="images/movie5.jpg" alt="" />
+        <img src="images/movie6.jpg" alt="" />
+      </div>
+      <!-- Header Close -->
+      <section class="movie-section">
+        <img src="images/movie1.jpg" alt="" class="main-image" />
+      </section>
+      <div class="search-box">
+        <input
+          type="text"
+          name=""
+          id="search-movie-input"
+          placeholder="Search Movie..."
+        />
+      </div>
+      <section class="movie-collection"></section>
+    </div>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
